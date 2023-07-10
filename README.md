@@ -26,6 +26,7 @@ APB Interface:
 
 
 Submodules
+
 AHB slave interface:
 ![AHB_Slave_interface](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/fe590e67-b6d2-40c7-bcb7-ac331be06956)
 
@@ -42,10 +43,9 @@ APB Controller:
 Simulation Output Waveforms:
 Bridge top output waveforms:
 1. Single write:
-   ![single_write](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/5cc33cda-0388-4e73-ad68-a8c73deae089)
+![single_write](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/5cc33cda-0388-4e73-ad68-a8c73deae089)
 
 2. Single Read:
-
 ![single_read png ](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/e5f67e6a-9973-4d3e-aa60-a92148f69bb0)
 
 
