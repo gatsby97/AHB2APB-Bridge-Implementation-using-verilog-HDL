@@ -60,8 +60,35 @@ Bridge top output waveforms:
 
 ![single_read png ](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/e5f67e6a-9973-4d3e-aa60-a92148f69bb0)
 
+3. Burst write of increment-4 type:
 
 
+![burst_write_inc](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/da3c3212-fa20-4f96-8a05-02f87d1a883d)
+
+4. Burst write of wrap4 type:
+
+
+![burst_write_wrap](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/1ff5a77a-9c6a-4619-b031-d9cbb4b77ccf)
+
+5. Burst read of increment-4 type:
+
+![burst_read_inc](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/d131e2ba-652d-4540-a73e-2134e0e31c75)
+
+
+6. Burst read of wrap4 type:
+
+![burst_read_wrap png ](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/dc077b5f-a25f-4141-b3b1-4a6d658fadce)
+
+
+Synthesize output:
+
+
+![synthesis_op](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/f9b918fd-52f1-4580-9e56-12fd4277b94d)
+
+
+State Machine:
+
+![state_machine](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/90848c67-929e-46a7-a7a9-d2b1c524ba97)
 
 
 
