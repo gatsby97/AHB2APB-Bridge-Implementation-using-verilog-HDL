@@ -10,6 +10,8 @@ The functionalities of the AHB2APB bridge can be summarized with the following b
 3. The bridge handles data transfer between the AHB and APB buses. It manages read and write operations b/w bus protocols, passing data and control signals between the modules and peripherals.
 
 AHB Master:
+
+
 ![AHB_master](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/d767a4d3-7c04-4599-9ee6-287dbdc2f4d6)
 
 1. AHB Master is the module which can access the bus in the protocol to perform read/write data transfer and communication between the modules, The master can be a CPU, DMA (Direct Memory Access) controller, or any other IP core that requires access to the system's resources.
