@@ -20,6 +20,8 @@ AHB Master:
 4. The AHB master transfers data to or from the specified slave device or memory location. It handles the data transfer protocol and timing requirements specified by the AHB protocol.
 
 APB Interface:
+
+
 ![APB_interface](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/9bf9b04d-6c23-482f-a2c8-4f0b94a7f94a)
 
 1. The APB (Advanced Peripheral Bus) is another bus protocol defined by ARM that is commonly used for connecting peripheral devices to the AHB bus in an SoC.
@@ -30,12 +32,16 @@ APB Interface:
 Submodules
 
 AHB slave interface:
+
+
 ![AHB_Slave_interface](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/fe590e67-b6d2-40c7-bcb7-ac331be06956)
 
 1. It performs pipelining logic of address, write data and write signals, involves in generating valid signal based on the slave address and other control signals and also involves in the peripheral mapping based on the slave address received by the AHB masters
 2. It acts an interface between AHB master and APB controller
 
 APB Controller:
+
+
 ![APB_controller](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/2e296cd7-1710-42b7-9bfa-bf1cd4ec87eb)
 
 1. The APB controller is a component that resides within the bridge and is responsible for managing the communication between the AHB (Advanced High-performance Bus) and APB (Advanced Peripheral Bus) interfaces. The APB controller performs various functionalities to ensure efficient and reliable data transfer between the two bus protocols. It acts as an interface between the AHB slave interface and the APB bus
@@ -45,9 +51,13 @@ APB Controller:
 Simulation Output Waveforms:
 Bridge top output waveforms:
 1. Single write:
+
+
 ![single_write](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/5cc33cda-0388-4e73-ad68-a8c73deae089)
 
 2. Single Read:
+
+
 ![single_read png ](https://github.com/Rakeshgupta2020/AHB2APB-Brdige-Implementation-uisng-verilog-HDL/assets/126176140/e5f67e6a-9973-4d3e-aa60-a92148f69bb0)
 
 
